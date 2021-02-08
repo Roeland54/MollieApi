@@ -10,7 +10,8 @@ namespace Mollie.Api.Models.Connect
                 this.GrantType = "refresh_token";
                 this.RefreshToken = code;
             }
-            else {
+            else
+            {
                 this.GrantType = "authorization_code";
                 this.Code = code;
             }
